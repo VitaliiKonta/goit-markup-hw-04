@@ -330,7 +330,6 @@ img {
 .team-soc-item {
   width: 40px;
   height: 40px;
-
   margin-top: 8px;
 }
 
@@ -350,6 +349,46 @@ img {
 }
 .team-soc-link:focus {
   background-color: var(--btn-accent-color);
+}
+
+/* ==============================CLIENTS========================= */
+
+.client-section {
+  padding-top: 130px;
+  padding-bottom: 120px;
+}
+
+.client-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--main-header-color);
+  text-align: center;
+  margin-bottom: 72px;
+}
+.client-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.client-link {
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  padding: 16px 32px;
+  fill: #8e8f99;
+}
+
+.client-link:hover,
+.client-link:focus {
+  fill: var(--btn-accent-color);
+  border: 1px solid;
+  border-color: var(--btn-accent-color);
+}
+
+.client-icon {
 }
 
 /* ==============================FOOTER========================= */
@@ -375,6 +414,45 @@ img {
 .white-logo-color {
   color: #f4f4fd;
 }
+
+.footer-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* justify-content: center; */
+}
+.footer-part-one {
+  margin-right: 120px;
+}
+
+.footer-part-two {
+  width: 208px;
+  height: 80px;
+}
+.footer-soc-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.footer-soc-list {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-soc-item {
+}
+
+.footer-soc-link {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+.footer-soc-icon {
+}
+
 /* +++++++++++++++++++++++++++++++++========================PORTFOLIO-PAGE========================================+++++++++++++++++++ */
 /* ==============================BUTTONS========================= */
 .portfolio-section {
